@@ -1,0 +1,29 @@
+{
+  "name": "webpackProject",
+  "version": "1.0.0",
+  "description": "Proyecto de introducción a webpack",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shechoruiz/webpack.git"
+  },
+  "keywords": [
+    "webpack",
+    "javascript"
+  ],
+  "author": "Sergio Ruiz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shechoruiz/webpack/issues"
+  },
+  "homepage": "https://github.com/shechoruiz/webpack#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "4.32.2",
+    "webpack-cli": "3.3.12"
+  }
+}
