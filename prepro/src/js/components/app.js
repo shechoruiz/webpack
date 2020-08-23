@@ -3,6 +3,9 @@ import data from "./data.json";
 import Loader from "./loader";
 import Logo from "../../images/platzi.png";
 import Video from "../../video/que-es-core.mp4";
+import "../../sass/sass.scss";
+import "../../less/less.less";
+import "../../stylus/stylus.styl";
 
 console.log(data);
 function App() {
@@ -14,6 +17,9 @@ function App() {
 
   return (
     <>
+      <p className="sass">Esto es sass</p>
+      <p className="less">Esto es less</p>
+      <p className="stylus">Esto es stylus</p>
       Que linda aplicación hecha en React.js
       <video src={Video} width={360} controls poster={Logo}></video>
       <p>
