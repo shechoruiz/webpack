@@ -15,6 +15,7 @@
     "build:react": "webpack-dev-server --config ./react/webpack.config.js",
     "build:url-loader": "webpack-dev-server --config ./url-loader/webpack.config.js",
     "build:prepro": "webpack-dev-server --config ./prepro/webpack.config.js",
+    "build:prevent": "webpack --config ./prevent-duplication/webpack.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
